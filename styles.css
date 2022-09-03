@@ -1,0 +1,75 @@
+body {
+  font-family: 'Montserrat', 'serif';
+  text-align: center;
+  background-color: #EDDFB3;
+}
+
+h1, h3, h5, h6{
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 5% 7%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #A27B5C;
+  color: white;
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.feature-box {
+  padding: 4%;
+}
+
+.tool-img {
+   width: 100%;
+   margin: 0 1% 10%;
+}
+
+.feature-title{
+  font-size: 1rem;
+}
+
+/* Footer */
+
+.footer-img{
+  margin: 0 1% 2%;
+}
+
+@media (max-width: 1010px) {
+
+  #title{
+    text-align: center;
+  }
+  .tool-img {
+    position: static;
+    width:60%;
+    padding-top: 10%;
+  }
+}
