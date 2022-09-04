@@ -7,6 +7,10 @@ h1, h3, h5, h6{
   font-weight: 900;
 }
 
+p{
+  font-size: 1.3rem;
+}
+
 .container-fluid {
   padding: 5% 7%;
 }
@@ -52,7 +56,7 @@ h1, h3, h5, h6{
 }
 
 .feature-title{
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 /* Footer */
@@ -70,5 +74,13 @@ h1, h3, h5, h6{
     position: static;
     width:60%;
     padding-top: 10%;
+  }
+  
+  .feature-title{
+    font-size: 1.5rem;
+  }
+
+  p{
+    font-size: 1.5rem;
   }
 }
