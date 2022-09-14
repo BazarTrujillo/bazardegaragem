@@ -1,6 +1,7 @@
 body {
   font-family: 'Montserrat', 'serif';
   text-align: center;
+
 }
 
 h1, h3, h5, h6{
@@ -70,17 +71,25 @@ p{
   #title{
     text-align: center;
   }
+
+  .big-heading{
+    font-size: 3.8rem;
+  }
   .tool-img {
     position: static;
     width:60%;
     padding-top: 10%;
   }
-  
+
   .feature-title{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   p{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+  }
+
+  h2, h3{
+    font-size: 2rem;
   }
 }
