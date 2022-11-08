@@ -53,7 +53,7 @@ p{
 
 .tool-img {
    width: 100%;
-   margin: 0 1% 10%;
+   height: 100%;
 }
 
 .feature-title{
@@ -75,11 +75,12 @@ p{
   .big-heading{
     font-size: 3.8rem;
   }
+  /*
   .tool-img {
     position: static;
     width:60%;
     padding-top: 10%;
-  }
+  }*/
 
   .feature-title{
     font-size: 1.5rem;
